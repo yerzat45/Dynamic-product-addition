@@ -1,0 +1,9 @@
+{
+  "name": "profitbase-bitrix-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Безопасная синхронизация объектов Profitbase с товарами сделок Битрикс24",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node src/server.js", "test": "node --test", "check": "node --check src/server.js"}
+}
